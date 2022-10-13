@@ -1,0 +1,49 @@
+#center {
+    text-align: center;
+}
+
+.crossCountryImg {
+    height: 250px;
+    width: 500px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New'
+}
+
+.button:hover {
+    background: white;
+    color: #1a64d6;
+    border: 1px solid #1a64d6;
+}
+
+.button {
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 16px 24px;
+    line-height: 22px;
+    background: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.mainBackground {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0.8435749299719888) 0%, rgba(186,56,5,1) 0%, rgba(255,222,0,1) 100%);
+}
+
+.aboutBackround {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,186,59,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.equipmentBackround{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.8435749299719888) 0%, rgba(5,167,186,1) 0%, rgba(0,48,255,1) 100%);
+}
